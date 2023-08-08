@@ -8,7 +8,7 @@ import loginPage from 'assets/login.jpg';
 import dashboard from 'assets/dashboard.jpg';
 import kript from 'assets/kript.jpg';
 import elpis from 'assets/elpis.jpg';
-import ProfileImage from 'assets/profile.jpg';
+import ProfileImage from 'assets/profile-gabriel.jpg';
 //import homeApp from 'assets/home.jpeg';
 //import homeAppLarge from 'assets/home-large.jpeg';
 // import sliceTextureLarge from 'assets/slice-app-large.jpg';
