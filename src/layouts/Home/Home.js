@@ -24,7 +24,7 @@ import { Profile } from 'layouts/Home/Profile';
 import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
-import byra from 'assets/byra/clubsfeed-dark.jpg'
+import byra from 'assets/byra/clubsfeed-dark.jpg';
 
 const disciplines = ['Designer', 'Prototyper', 'Mobile', 'Web', 'Beack-end', 'Full-Stack'];
 
