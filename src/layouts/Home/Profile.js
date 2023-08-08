@@ -13,6 +13,7 @@ import { Fragment, useState } from 'react';
 import { media } from 'utils/style';
 import styles from './Profile.module.css';
 
+
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
@@ -29,6 +30,7 @@ const ProfileText = ({ visible, titleId }) => (
     </Text>
   </Fragment>
 );
+
 
 export const Profile = ({ id, visible, sectionRef, profileImg }) => {
   const [focused, setFocused] = useState(false);
