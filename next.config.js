@@ -5,7 +5,7 @@ module.exports = {
   webpack(config, { isServer }) {
     // Run custom scripts
     if (isServer) {
-      require('./scripts/generate-sitemap');
+      //require('./scripts/generate-sitemap');
       require('./scripts/draco');
     }
 
