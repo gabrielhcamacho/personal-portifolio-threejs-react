@@ -122,7 +122,7 @@ export const Home = () => {
         index={2}
         title="Gym progress tracking"
         description="Design and development for a gym workout tracking app built in React Native"
-        buttonText="View website"
+        buttonText="View code"
         buttonLink="https://github.com/gabrielhcamacho/ignitegym"
         model={{
           type: 'phone',
@@ -146,7 +146,7 @@ export const Home = () => {
         index={3}
         title="Coding the future of business marketing"
         description="Platform for products tendance analysis, ads and leads management"
-        buttonText="View project"
+        buttonText="View website"
         buttonLink="https://tendenceb.com"
         model={{
           type: 'laptop',
@@ -166,7 +166,7 @@ export const Home = () => {
         index={4}
         title="Coding the future of business marketing"
         description="Designing a platform to transfer Ethereum using React and blockchain development"
-        buttonText="View project"
+        buttonText="View website"
         buttonLink="https://kript.vercel.app/"
         model={{
           type: 'laptop',
@@ -187,7 +187,7 @@ export const Home = () => {
         index={5}
         title="Car sales and deals tracking"
         description="Crafting and building a React Native app for seamless car sales experience"
-        buttonText="View website"
+        buttonText="View code"
         buttonLink="https://github.com/gabrielhcamacho/nexuscar"
         model={{
           type: 'phone',
@@ -211,15 +211,15 @@ export const Home = () => {
         index={6}
         title="Creative art in tech"
         description="Designing a platform to help educators build better online courseware"
-        buttonText="View project"
+        buttonText="View website"
         buttonLink="https://elpis-website.vercel.app/"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'website image',
           textures: [
             {
               srcSet: [elpis, elpis],
-              placeholder: sprTexturePlaceholder,
+              placeholder: elpis,
             },
           ],
         }}
