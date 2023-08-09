@@ -104,7 +104,7 @@ export const Home = () => {
           textures: [
             {
               srcSet: [byra, byra],
-              placeholder: sprTexturePlaceholder,
+              placeholder: byra,
             },
           ],
         }}
@@ -125,7 +125,7 @@ export const Home = () => {
           textures: [
             {
               srcSet: [loginPage, loginPage],
-              placeholder: gamestackTexturePlaceholder,
+              placeholder: loginPage,
             },
             {
               srcSet: [gamestackTexture2Large, gamestackTexture2Large],
@@ -149,7 +149,7 @@ export const Home = () => {
           textures: [
             {
               srcSet: [dashboard, dashboard],
-              placeholder: sprTexturePlaceholder,
+              placeholder: dashboard,
             },
           ],
         }}
@@ -169,7 +169,7 @@ export const Home = () => {
           textures: [
             {
               srcSet: [kript, kript],
-              placeholder: sprTexturePlaceholder,
+              placeholder: kript,
             },
           ],
         }}

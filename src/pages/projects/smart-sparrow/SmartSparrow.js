@@ -64,9 +64,17 @@ import {
 } from 'layouts/Project';
 
 import clubsFeedDark from 'assets/byra/clubsfeed-dark.jpg';
+import clubsFeedLight from 'assets/byra/clubsfeed-light.jpg';
+
 import feedDark from 'assets/byra/feed-dark.jpg';
+import feedLight from 'assets/byra/feed-light.jpg';
+
 import techsDark from 'assets/byra/techs-dark.jpg';
+import techsLight from 'assets/byra/techs-light.jpg';
+
 import newsDark from 'assets/byra/news-dark.jpg';
+import newsLight from 'assets/byra/news-light.jpg';
+
 import backgroundTech from 'assets/byra/testebg.jpg';
 import bgtop from 'assets/byra/bgtop.jpg';
 import dynamic from 'next/dynamic';
@@ -121,12 +129,12 @@ export const SmartSparrow = () => {
               srcSet={
                 isDark
                   ? [clubsFeedDark, clubsFeedDark]
-                  : [imageSprLessonBuilderLight, imageSprLessonBuilderLightLarge]
+                  : [clubsFeedLight, clubsFeedLight]
               }
               placeholder={
                 isDark
                   ? clubsFeedDark
-                  : imageSprLessonBuilderLightPlaceholder
+                  : clubsFeedLight
               }
               sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 800px, 1000px`}
               alt="The aero lesson builder app dragging an audio component into a screen about plant cells."
@@ -137,7 +145,7 @@ export const SmartSparrow = () => {
           <ProjectTextRow>
             <ProjectSectionHeading>The problem</ProjectSectionHeading>
             <ProjectSectionText>
-              In 2021, I was struggling to connect with more experienced developers that could help guide my journey in the infinite universe of computing. I was not sure the paths to take and which technologies to learn. So I thought of a platform where you can have open groups of developers, structured learning paths by technologies and job roles, with videos and posts that anyone can share, post courses, create events, forums, and get tunned with tech news
+              In 2021, I was struggling to connect with more experienced developers that could help guide my journey in the infinite universe of computing. I was not sure the paths to take and which technologies to learn. So I thought of a platform where you can have open groups of developers, structured learning paths by technologies and job roles, with videos and posts that anyone can share, post courses, create events, forums, and get tunned with tech news. So I started coding it and called 2 friends to help me in the journey
             </ProjectSectionText>
           </ProjectTextRow>
         </ProjectSection>
@@ -148,7 +156,7 @@ export const SmartSparrow = () => {
               srcSet={
                 isDark
                   ? [feedDark, feedDark]
-                  : [imageSprComponentsLight, imageSprComponentsLightLarge]
+                  : [feedLight, feedLight]
               }
               placeholder={
                 isDark
@@ -234,12 +242,12 @@ export const SmartSparrow = () => {
               srcSet={
                 isDark
                   ? [techsDark, techsDark]
-                  : [imageSprComponentsLight, imageSprComponentsLightLarge]
+                  : [techsLight, techsLight]
               }
               placeholder={
                 isDark
                   ? techsDark
-                  : imageSprComponentsLightPlaceholder
+                  : techsLight
               }
               alt={`A set of ${themeId} themed components for the aero design system`}
               sizes="100vw"
@@ -261,12 +269,12 @@ export const SmartSparrow = () => {
               srcSet={
                 isDark
                   ? [newsDark, newsDark]
-                  : [imageSprStoryboarderLight, imageSprStoryboarderLightLarge]
+                  : [newsLight, newsLight]
               }
               placeholder={
                 isDark
-                  ? imageSprStoryboarderDarkPlaceholder
-                  : imageSprStoryboarderLightPlaceholder
+                  ? newsDark
+                  : newsLight
               }
               alt="A drag and drop storyboard style editor for creating an adaptive lesson."
               sizes={`(max-width: ${media.mobile}px) 100vw, 80vw`}
