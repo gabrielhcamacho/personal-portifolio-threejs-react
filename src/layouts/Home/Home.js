@@ -25,6 +25,10 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 import byra from 'assets/byra/clubsfeed-dark.jpg';
+import carHome from 'assets/nexuscar/car-home.jpg';
+import singUp from 'assets/nexuscar/sign-up.jpg';
+import intercityLogin from 'assets/intercity/login.jpg';
+import intercityExplore from 'assets/intercity/explore.jpg';
 
 const disciplines = ['Designer', 'Prototyper', 'Mobile', 'Web', 'Beack-end', 'Full-Stack'];
 
@@ -38,10 +42,11 @@ export const Home = () => {
   const projectFour = useRef();
   const projectFive = useRef();
   const projectSix = useRef();
+  const projectSeven = useRef();
   const details = useRef();
 
   useEffect(() => {
-    const sections = [intro, projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix, details];
+    const sections = [intro, projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix, projectSeven, details];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -180,8 +185,8 @@ export const Home = () => {
         sectionRef={projectFive}
         visible={visibleSections.includes(projectFive.current)}
         index={5}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
+        title="Car sales and deals tracking"
+        description="Crafting and building a React Native app for seamless car sales experience"
         buttonText="View website"
         buttonLink="https://github.com/gabrielhcamacho/nexuscar"
         model={{
@@ -189,12 +194,12 @@ export const Home = () => {
           alt: 'App login screen',
           textures: [
             {
-              srcSet: [gamestackTexture, gamestackTextureLarge],
-              placeholder: gamestackTexturePlaceholder,
+              srcSet: [carHome, carHome],
+              placeholder: carHome,
             },
             {
-              srcSet: [gamestackTexture2, gamestackTexture2Large],
-              placeholder: gamestackTexture2Placeholder,
+              srcSet: [singUp, singUp],
+              placeholder: singUp,
             },
           ],
         }}
@@ -215,6 +220,31 @@ export const Home = () => {
             {
               srcSet: [elpis, elpis],
               placeholder: sprTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-7"
+        alternate
+        sectionRef={projectSeven}
+        visible={visibleSections.includes(projectSeven.current)}
+        index={7}
+        title="Redefining leisure"
+        description="Unwind and Explore: designed a Figma app for discovering leisure activities in your city"
+        buttonText="View design"
+        buttonLink="https://dribbble.com/GabrielCamacho"
+        model={{
+          type: 'phone',
+          alt: 'App login screen',
+          textures: [
+            {
+              srcSet: [intercityLogin, intercityLogin],
+              placeholder: intercityLogin,
+            },
+            {
+              srcSet: [intercityExplore, intercityExplore],
+              placeholder: intercityExplore,
             },
           ],
         }}
