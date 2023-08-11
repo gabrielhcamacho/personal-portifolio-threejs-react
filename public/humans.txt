@@ -3,14 +3,13 @@ __  __  __
  \ \/\ \
   \/  \/
 
-The humans.txt file explains the team, technology,
-and graphic assets behind this site humanstxt.org.
+The humans.txt file explains the team, technology
 
 _______________________________________________________________________________
 
 DESIGNER | デザイナー
 
-Hamish Williams
+Gabriel Camacho
 Hand crafted design & web development
 
 Design tools:
@@ -18,8 +17,8 @@ Figma
 Photoshop
 Blender
 
-twitter.com/hamishmw
-github.com/hamishmw
+twitter.com/thegabrielcamacho
+github.com/gabrielhcamacho
 
 _______________________________________________________________________________
 
