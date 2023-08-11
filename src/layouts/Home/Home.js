@@ -102,7 +102,7 @@ export const Home = () => {
         title="Coding the future of tech education"
         description="Platform that changes the way to learn, share and network in the tech world"
         buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="/projects/byra"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
