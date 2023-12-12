@@ -164,7 +164,7 @@ export const Home = () => {
         sectionRef={projectFour}
         visible={visibleSections.includes(projectFour.current)}
         index={4}
-        title="Coding the future of business marketing"
+        title="Sending cryptos in a easy funny way"
         description="Designing a platform to transfer Ethereum using React and blockchain development"
         buttonText="View website"
         buttonLink="https://kript.vercel.app/"
